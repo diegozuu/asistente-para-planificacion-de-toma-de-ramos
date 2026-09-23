@@ -1,3 +1,0 @@
-Propuesta de Horarios Estructurada: El asistente ahora procesa la información y entrega la propuesta académica en una tabla ordenada con bloques horarios, días, asignaturas y secciones.
-Flujo Conversacional Guiado: Saludo inicial optimizado donde el bot se presenta, explica su objetivo y solicita de forma clara los datos necesarios (carrera, semestre y jornada) antes de generar el horario.
-Nueva Interfaz Web (HTML/CSS): Integración de un entorno interactivo en Gradio diseñado para simular la estructura y el portal oficial de Duoc UC, incorporando sus colores, logotipos e identidad visual para brindar una experiencia más realista y profesional.
