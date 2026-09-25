@@ -22,3 +22,5 @@ Esta versión toma la idea del primer prototipo y la lleva al siguiente nivel, c
 5. **Estructura mejorada para lectura de PDFs:**
    * Se cambió el formato en el cual se analizan los PDF, añadiendo una estructura que permite identificar los archivos de forma ordenada usando la siguente estructura:  
      `"PalabraClave": "NombreExactoDelArchivo.pdf"`
+6. **Diagrama de arquitectura propuesta:**
+   <img width="1250" height="337" alt="image" src="https://github.com/user-attachments/assets/4c85366e-027a-4f60-9831-5b58eeddf38c" />
