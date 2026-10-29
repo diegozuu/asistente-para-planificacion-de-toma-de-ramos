@@ -1,9 +1,4 @@
-# Portal Académico: Asistente de Horarios (Prototipo 5)
-
-Asistente web que ayuda a un estudiante de Duoc UC a armar su horario de clases. El estudiante escribe su solicitud con palabras normales y el sistema responde con una propuesta de horario sin choques entre asignaturas.
-
-> Ejemplo de solicitud: *"Soy de Desarrollo, paso a 4to semestre en jornada Diurna."*
-
+# Portal Académico: Asistente de Horarios (Prototipo 3)
 ## Novedades de este prototipo
 
 - **Agentes de inteligencia artificial:** ahora el sistema usa dos agentes con tareas separadas. Uno entiende el mensaje del estudiante y el otro redacta el resumen de la propuesta.
@@ -57,30 +52,5 @@ flowchart TD
 | 8. Estilos visuales | Define colores y diseño de la página. |
 | 9. Interfaz gráfica | Construye la página web con Gradio. |
 | 10. Lanzamiento | Pone en marcha el portal y genera un enlace público. |
-
-## Requisitos
-
-- Cuenta en Google Colab.
-- Archivo `HORARIOS_SIMULADOS_CORREGIDO.xlsx` con las hojas `BASE` y `OPTATIVOS COMPETENCIAS GLOBALES`.
-- Las siete imágenes de mallas curriculares en formato `.jpg`, con los nombres que aparecen en la sección 5 del cuaderno.
-- Una clave de API de [Groq](https://groq.com), guardada en los Secretos de Colab con el nombre `OPENAI_API_KEY`.
-
-## Cómo ejecutarlo
-
-1. Abre el cuaderno `.ipynb` en Google Colab.
-2. Carga el Excel y las imágenes de las mallas en los archivos de Colab.
-3. Agrega la clave de API en los Secretos de Colab.
-4. Ejecuta las celdas en orden, de arriba hacia abajo.
-5. Revisa el resultado de la sección 5 y compáralo con las imágenes originales.
-6. Al ejecutar la última celda se genera un enlace público (`gradio.live`). Ábrelo y escribe tu solicitud.
-
-## Limitaciones
-
-- Es un prototipo: la lectura de las mallas depende de la calidad de las imágenes, por eso se recomienda revisar el control de calidad de la sección 5.
-- El enlace público dura aproximadamente una semana y se desactiva al cerrar o reiniciar Colab.
-- Los cupos electivos muestran opciones sugeridas tomadas del Excel; la elección final corresponde al estudiante.
-- Si una asignatura no aparece en el Excel, el sistema lo informa en lugar de inventar un horario.
-
-## Tecnologías
 
 Python, Google Colab, Gradio, Pandas, OpenCV, Tesseract OCR y Groq (modelo `openai/gpt-oss-120b`).
