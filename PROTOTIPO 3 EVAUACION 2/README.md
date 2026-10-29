@@ -36,8 +36,6 @@ flowchart TD
 | Agente 1: Analista | Lee el mensaje y extrae carrera, semestre y jornada. | Inventar datos que el estudiante no dijo. |
 | Agente 2: Redactor | Escribe un resumen de máximo 4 oraciones. | Nombrar siglas, docentes u horarios que no estén en los datos verificados. |
 
-**Principio de diseño:** la inteligencia artificial no inventa datos. Todo lo que aparece en las tablas sale de la malla y del Excel, calculado con Python. Además, el resumen del Agente 2 pasa por un filtro que lo descarta si menciona una sigla que no existe.
-
 ## Estructura del cuaderno
 
 | Sección | Qué hace |
