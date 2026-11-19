@@ -9,8 +9,13 @@ Este es el quinto prototipo del asistente de horarios para Duoc UC. En las versi
 * **Registros de ejecución:** Cada consulta guarda un código único y anota si hubo avisos o errores. Así puedo ver rápido si falta algún ramo en el Excel o si algo falló.
 * **Panel de monitoreo:** Agregué una pestaña nueva con gráficos para ver los tiempos de respuesta, los errores y la precisión del asistente.
 * **Seguridad y privacidad:** El sistema revisa que los horarios entregados existan de verdad en el Excel para que la IA no invente secciones.
-
+## En caso de subir un archivo que no sea una malla en jpg
 <img width="676" height="189" alt="image" src="https://github.com/user-attachments/assets/b8e8ccae-53d5-4851-a9f6-a943e442bc4e" />
+## Malla analizada correctamente y ejecución del sistema
+<img width="1087" height="493" alt="image" src="https://github.com/user-attachments/assets/7539a520-f2e8-4d75-bca6-c51a5b48cf8b" />
+<img width="1087" height="436" alt="image" src="https://github.com/user-attachments/assets/f39d1a0f-ef5e-4dae-9263-4a65835ba2ff" />
+
+
 
 
 
